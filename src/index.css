@@ -1,0 +1,41 @@
+.flexColCenter {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.flexStart {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+.flexEnd {
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+}
+
+.primaryText {
+  font-size: 18px;
+  color: var(--Very-Dark-Blue);
+}
+
+.secondaryText {
+  font-size: 14px;
+  color: var(--Grayish-Blue);
+}
+
+.headerText {
+  font-size: 42px;
+  color: var(--Very-Dark-Blue);
+}
+
+.button {
+  background-color: var(--Soft-Blue);
+  padding: 9px 25px;
+  outline: none;
+  border: 0;
+  border-radius: 4px;
+  color: var(--White);
+}
