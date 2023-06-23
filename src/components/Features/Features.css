@@ -1,0 +1,57 @@
+.f-container.flexCol {
+  flex-direction: column;
+  align-items: center;
+}
+
+.f-content {
+  overflow: hidden;
+}
+
+.content.flexColCenter {
+  justify-content: space-between;
+}
+
+.content > div {
+  flex: 1;
+}
+
+.right-content {
+  padding-left: 100px;
+}
+
+.right-content .secondaryText {
+  max-width: 350px;
+  display: flex;
+  margin: 25px 0;
+}
+
+.f-titles {
+  margin-bottom: 100px;
+  padding-bottom: 30px;
+  border-bottom: 1px solid var(--Soft-Blue);
+}
+
+.f-titles span {
+  margin: 25px;
+  position: relative;
+}
+
+.f-titles span::after {
+  content: "";
+  height: 3px;
+  width: 0;
+  background-color: var(--Soft-Red);
+  left: 0;
+  position: absolute;
+  bottom: -32px;
+}
+
+.f-titles span.active::after {
+  width: 100%;
+}
+
+.subtitle {
+  max-width: 420px;
+  text-align: center;
+  margin: 30px auto 40px;
+}

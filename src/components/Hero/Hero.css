@@ -1,0 +1,131 @@
+.h-container {
+  width: 100%;
+  min-height: 100vh;
+}
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
+#navBar {
+  flex: 1;
+  margin-right: 20px;
+  display: flex;
+  position: relative;
+  align-items: center;
+  z-index: 6;
+}
+
+ul {
+  width: 100%;
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+  text-align: right;
+  list-style: none;
+}
+
+ul li {
+  margin: 0 24px;
+}
+
+ul li a {
+  color: var(--Soft-Blue);
+  text-transform: uppercase;
+}
+
+ul li a:hover {
+  color: var(--Soft-Red);
+}
+
+nav .button {
+  background-color: var(--Soft-Red);
+  text-transform: uppercase;
+  font-weight: 500;
+}
+
+nav .button:hover {
+  border-color: var(--Soft-Red);
+  background-color: transparent;
+  color: var(--Soft-Red);
+}
+
+.navLogo {
+  display: none;
+}
+
+.hamBurger {
+  display: none;
+}
+
+@media (max-width: 375px) {
+  #navBar {
+    position: fixed;
+    padding: 50px;
+    top: 0;
+    right: -375px;
+    height: 100vh;
+    width: 100%;
+    background: linear-gradient(rgba(37, 43, 70, 0.9), rgba(37, 43, 70, 0.9));
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0;
+    transition: all 300ms ease-in;
+  }
+
+  #navBar.active {
+    right: 0;
+  }
+
+  ul {
+    display: block;
+    align-items: center;
+    justify-content: center;
+    /* background-color: rebeccapurple; */
+    margin: -100px auto 40px;
+  }
+
+  ul li {
+    margin: 40px auto;
+    text-align: center;
+    border-bottom: 1px solid var(--White);
+    padding-bottom: 10px;
+  }
+
+  ul li a {
+    color: var(--White);
+  }
+
+  .navLogo {
+    display: block;
+    position: absolute;
+    top: 20px;
+    left: 25px;
+  }
+
+  .closeIcon {
+    position: absolute;
+    top: 25px;
+    right: 20px;
+  }
+
+  .hamBurger {
+    display: block;
+  }
+
+  .navLog svg {
+    fill: var(--White);
+  }
+
+  #navBar .button {
+    margin-top: -40px;
+    padding: 10px 77px;
+    width: 100%;
+    background-color: transparent;
+    border-color: var(--White);
+  }
+}
