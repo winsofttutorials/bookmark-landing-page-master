@@ -10,3 +10,5 @@ export { default as menu } from "../images/icon-hamburger.svg";
 export { default as closeIcon } from "../images/icon-close.svg";
 export { default as illustration } from "../images/illustration-hero.svg";
 export { default as illustrations } from "../images/illustration-features-tab-1.svg";
+export { default as illustrations2 } from "../images/illustration-features-tab-2.svg";
+export { default as illustrations3 } from "../images/illustration-features-tab-3.svg";
