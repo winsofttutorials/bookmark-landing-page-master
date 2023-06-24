@@ -1,0 +1,44 @@
+.d-container > :nth-child(2) {
+  max-width: 450px;
+  margin-top: 20px;
+  text-align: center;
+}
+
+.d-content {
+  margin-top: 30px;
+}
+
+.d-contentFrame {
+  background-color: var(--White);
+  box-shadow: 0 14px 25px rgba(0, 0, 0, 0.4);
+  margin: 20px;
+  border-radius: 10px;
+}
+
+.d-contentFrame:nth-child(2) {
+  transform: translateY(30px);
+}
+
+.d-contentFrame:nth-child(3) {
+  transform: translateY(60px);
+}
+.d-contentFrame img {
+  margin: 20px auto;
+  width: 80px;
+}
+
+.d-contentFrame h3 {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+.d-contentFrame div {
+  padding: 15px;
+  border-top: 1px dashed var(--Grayish-Blue);
+  margin-top: 20px;
+}
+
+@media (max-width: 375px) {
+  .d-content {
+    flex-direction: column;
+  }
+}

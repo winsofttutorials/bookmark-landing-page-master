@@ -12,3 +12,7 @@ export { default as illustration } from "../images/illustration-hero.svg";
 export { default as illustrations } from "../images/illustration-features-tab-1.svg";
 export { default as illustrations2 } from "../images/illustration-features-tab-2.svg";
 export { default as illustrations3 } from "../images/illustration-features-tab-3.svg";
+export { default as chrome } from "../images/logo-chrome.svg";
+export { default as firefox } from "../images/logo-firefox.svg";
+export { default as opera } from "../images/logo-opera.svg";
+export { default as arrow } from "../images/icon-arrow.svg";

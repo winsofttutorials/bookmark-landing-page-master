@@ -12,8 +12,3 @@
   --Very-Dark-Blue: hsl(229, 31%, 21%);
   --White: hsl(255, 100%, 100%);
 }
-
-.closeIcon {
-  position: absolute;
-  top: 20px;
-}
