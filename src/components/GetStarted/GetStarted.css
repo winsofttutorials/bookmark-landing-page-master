@@ -1,0 +1,59 @@
+.emailField .button {
+  background-color: var(--Soft-Red);
+  font-size: 12px;
+  padding: 10px;
+}
+.g-wrapper {
+  background-color: var(--Soft-Blue);
+}
+
+.g-container > :nth-child(1) {
+  text-transform: uppercase;
+  color: var(--White);
+  font-size: 12px;
+  font-weight: 400;
+  margin: 20px auto 30px;
+  letter-spacing: 3px;
+}
+
+.g-container > :nth-child(2) {
+  color: var(--White);
+  font-size: 24px;
+  max-width: 340px;
+  text-align: center;
+  font-weight: 500;
+  margin: 0 auto 20px;
+}
+
+.emailField > :nth-child(1) {
+  width: 250px;
+  border: 0;
+  outline: none;
+  padding: 10px;
+  margin-right: 15px;
+  color: var(--Grayish-Blue);
+}
+
+::placeholder {
+  font-size: 12px;
+  color: var(--Grayish-Blue);
+}
+
+.emailField {
+  margin-bottom: 30px;
+}
+
+@media (max-width: 375px) {
+  .emailField {
+    width: 100%;
+  }
+
+  .emailField > :nth-child(1) {
+    width: 100%;
+  }
+
+  .emailField .button {
+    width: 100%;
+    margin-top: 20px;
+  }
+}

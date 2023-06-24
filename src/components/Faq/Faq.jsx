@@ -20,7 +20,7 @@ const Faq = () => {
           answered please feel free to email us.
         </p>
 
-        <Accordion>
+        <Accordion preExpanded={[0]} allowMultipleExpanded={false}>
           {data.map((item, i) => {
             return (
               <AccordionItem className="accordionItem">

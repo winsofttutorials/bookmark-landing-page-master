@@ -9,12 +9,13 @@
 }
 
 .fq-container .button {
-  margin-top: 30px;
+  margin: 30px auto 60px;
 }
 
 .text {
   width: 100%;
   font-size: 15px;
+  color: var(--Grayish-Blue);
 }
 
 .accordionButton {
@@ -26,11 +27,13 @@
   flex: 1;
   font-size: 16px;
   font-weight: 500;
+  margin-right: 20px;
 }
 
 .accordionButton > :nth-child(2) {
   float: right;
   size: 10px;
+  line-height: 20px;
 }
 
 .accordionItem {

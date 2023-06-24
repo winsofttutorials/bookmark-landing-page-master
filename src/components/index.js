@@ -16,3 +16,5 @@ export { default as chrome } from "../images/logo-chrome.svg";
 export { default as firefox } from "../images/logo-firefox.svg";
 export { default as opera } from "../images/logo-opera.svg";
 export { default as arrow } from "../images/icon-arrow.svg";
+export { default as facebook } from "../images/icon-facebook.svg";
+export { default as twitter } from "../images/icon-twitter.svg";
